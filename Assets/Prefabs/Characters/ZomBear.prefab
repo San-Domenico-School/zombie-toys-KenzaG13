@@ -165,7 +165,7 @@ MonoBehaviour:
   animator: {fileID: 5375707291253605243}
   audioSource: {fileID: 6361287662339770549}
   capsuleCollider: {fileID: 5375707291253605240}
-  hitParticles: {fileID: 0}
+  hitParticles: {fileID: 19881454, guid: 8ffc03aa19116cb439ee0d88a9da0717, type: 3}
   isInvulnerable: 0
 --- !u!82 &6361287662339770549
 AudioSource:
