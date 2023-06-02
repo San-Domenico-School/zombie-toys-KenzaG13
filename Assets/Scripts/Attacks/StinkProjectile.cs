@@ -65,8 +65,9 @@ public class StinkProjectile : MonoBehaviour
 			//...move the projectile to the new calculated position
 			transform.position = newPosition;
 			//...and finally, wait until the next frame
-			yield return null;
+			
 		}
+		yield return null;
 
 		//Once the projectile has traveled far enough, explode!
 		Explode();
